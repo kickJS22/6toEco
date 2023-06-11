@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: white;
+    /* justify-content: center; */
+}
+
+#MainIm{
+    width: 17vw;
+    height: auto;
+    transition: 1s;
+}
+
+#MainIm:hover{
+    transform: translateY(-10px);
+}
+
+
+#hr1{
+    height: 4px;
+    background-color: black;
+}
+
+#hr2{
+    height: 1px;
+    background-color: black;
+}
+
+
+#headerDiv{
+    margin: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+#Main h1 {
+    font-family: 'Geologica';
+    font-weight: 800;
+    text-align: center;
+    font-size: 50px;
+    color: red;
+}
+#Main h4{
+    font-family: 'Geologica';
+    font-weight: 400;
+    text-align: center;
+    font-size: 30px;
+    color: gray;
+}
+
+#articlesCont{
+    margin-left: 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 28em);
+    gap: 20px;
+
+}
+
+.art{
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+    height: auto;
+    width: 300px;
+    padding: 10px;
+    transition: 1s;
+}
+
+.art:hover{
+    transform: translateY(-10px);
+    box-shadow: 0px 10px black;
+}
+
+.art h1 {
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'Geologica';
+    color: red;
+}
+
+.art h4 {
+    font-size: 17px;
+    font-weight: 500;
+    font-family: 'Geologica';
+    color: black;
+}
+
+.art p {
+    font-size: 13px;
+    font-weight: 200;
+    font-family: 'Geologica';
+    color: black;
+}
+
+.art img{
+    display: inline;
+    object-fit: scale-down;
+    height: auto;
+    width: 100%;
+}

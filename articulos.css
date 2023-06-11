@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+#noticiaCont{
+    padding-left: 25vw;
+    padding-right: 25vw;
+}
+
+#noticia{
+   
+
+}
+
+#fecha{
+    font-family: 'Geologica';
+    font-size: 15px;
+}
+
+#titulo{
+    font-family: 'Geologica';
+    font-size: 50px;
+    color: red;
+}
+
+#subtitulo{
+    font-family: 'Geologica';
+    font-size: 30px;
+    color: gray;
+}
+
+#escritores{
+    font-family: 'Geologica';
+    font-size: 15px;
+}
+
+img{
+    height: auto;
+    width: 50vw;
+}
+
+#descripcion{
+    font-family: 'Geologica';
+    font-size: 15px;
+}
+
+a{
+    font-family: 'Geologica';
+    font-size: 12px;
+}
+
+article{
+    font-family: 'Geologica';
+}
+article p {
+    font-size: 20px;
+}
